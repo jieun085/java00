@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>달력</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="month">
+            <button class="button" id="prev" onclick="prevMonth()">&#10094;</button>
+            <div id="month-year"></div>
+            <button class="button" id="next" onclick="nextMonth()">&#10095;</button>
+        </div>
+        <div class="weekdays">
+            <div>SUN</div>
+            <div>MON</div>
+            <div>TUE</div>
+            <div>WED</div>
+            <div>THU</div>
+            <div>FRI</div>
+            <div>SAT</div>
+        </div>
+        <div class="days" id="days"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
